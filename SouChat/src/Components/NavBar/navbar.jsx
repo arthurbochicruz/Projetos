@@ -3,6 +3,7 @@ import './navbar.css'
 function NavBar() {
     return (
         <main className='Conteiner'>
+
             <h1 className='Souchat-logo'><img className='Souchat-logo' src="Souchat-logo.png" alt="Logo SouChat" /></h1>
 
             <div className='divLink'>
@@ -12,15 +13,13 @@ function NavBar() {
                 <a id='blog'        className='Links'       href="#">Blog</a>
             </div>
 
-                <a className='fal' href="#">
-                    <span className='spantext'>
-                         Falar com <br /> Especialistas
-                    </span>
-                </a>
+            <a className='fal' href="#">
+                <p className='spantext'>
+                        Falar com <br />
+                      Especialistas
+                </p>
+            </a>
             
-
-
-
         </main>
     )
 }

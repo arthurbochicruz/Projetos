@@ -44,22 +44,25 @@
 }
 
 .fal{
-    position: fixed;
-    top: 0;
-    right: 0;
+    display: flex;
+   position: fixed;
+   top: 0;
+   right: 0;
     margin-right: 190px;
     margin-top: 24px;
     background-image: linear-gradient(to right, #0ABEB7,#3f8b92);
     width: 211.27px;
     height: 62px;
     border-radius: 40px;
-    padding: 0px;
+    text-align: center;
 
-}
-.spantext {
-   color: #FFFFFF;
-  line-height: 0px; 
-}
-.fal:hover {
+}.fal:hover {
   background-image: linear-gradient(to left, #0ABEB7,#3f8b92);
+}
+
+.spantext {
+    flex: auto;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+   padding-right: 5px;
 }
